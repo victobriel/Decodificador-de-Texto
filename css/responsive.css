@@ -1,0 +1,50 @@
+@media screen and (min-width: 1000px) {
+    .encode-panel img {
+        transform: scale(1.7);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        display: block;
+        margin: 10px;
+        height: auto;
+    }
+    .encode-input {
+        width: auto;
+    }
+    .encode-panel {
+        width: auto;
+        height: auto;
+        padding: 30px;
+        margin: 50px 0;
+    }
+    .center-absolute {
+        transform: none;
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+    .encode-panel .center-absolute p {
+        color: #fff;
+        margin-bottom: 0;
+        line-height: 1.4;
+        font-size: 16px;
+        
+    }
+    .encode-panel img {
+        display: none;
+    }
+    footer {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #encode-btn, #decode-btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

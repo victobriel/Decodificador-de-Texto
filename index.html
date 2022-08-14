@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encoder / Decoder</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <script src="https://kit.fontawesome.com/9e46e299e9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <img class="logo" src="https://www.alura.com.br/assets/img/alura-logo.svg" alt="alura-logo" draggable="false">
+        <!-- <img class="logo" src="images/vector.svg" alt="alura-logo" draggable="false"> -->
+        <main>
+            <div class="wrapper">
+                <div class="encode-input">
+                    <textarea id="input-area" type="text"></textarea>
+                    <div class="info">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <p>Utilize apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <button id="encode-btn" class="disabled" disabled>Criptografar</button>
+                    <button id="decode-btn" class="disabled" disabled>Desencriptografar</button>
+                </div>
+                <div class="encode-panel">
+                    <textarea id="panel-area" class="hide" type="text" disabled></textarea>
+                    <div class="center-absolute">
+                        <div id="div-start">
+                            <img src="images/b_5d07af2662763.svg" alt="Imagem nenhuma mensagem encontrada" draggable="false">
+                            <p class="no-message">Nenhuma mensagem encontrada</p>
+                            <p>Digite um texto que você deseja criptografar ou desencriptografar</p>
+                            <textarea class="panel_ hide" type="text" placeholder="Nenhuma mensagem encontrada"></textarea>
+                        </div>
+                    </div>
+                    <button id="copy-btn" class="hide">Copiar</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social-media">
+                <a href="https://github.com/victobriel" target="_blank" draggable="false"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/victorcxias/" target="_blank" draggable="false"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/victorgbriel/" target="_blank" draggable="false"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/victorgbriel/" target="_blank" draggable="false">victorgbriel</a> - Programa <a href="https://www.alura.com.br/oracle-next-education" target="_blank" draggable="false">ONE</a></p>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+</html>
