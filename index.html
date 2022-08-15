@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <title>Encoder / Decoder</title>
+        <title>Criptografe ou descriptografe seu texto</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -14,16 +14,16 @@
         <!-- <img class="logo" src="images/vector.svg" alt="alura-logo" draggable="false"> -->
         <main>
             <div class="wrapper">
-                <div class="encode-input">
+                <div class="encrypt-input">
                     <textarea id="input-area" type="text"></textarea>
                     <div class="info">
                         <i class="fa-solid fa-circle-info"></i>
                         <p>Utilize apenas letras minúsculas e sem acento.</p>
                     </div>
-                    <button id="encode-btn" class="disabled" disabled>Criptografar</button>
-                    <button id="decode-btn" class="disabled" disabled>Desencriptografar</button>
+                    <button id="encrypt-btn" class="disabled" disabled>Criptografar</button>
+                    <button id="decrypt-btn" class="disabled" disabled>Desencriptografar</button>
                 </div>
-                <div class="encode-panel">
+                <div class="encrypt-panel">
                     <textarea id="panel-area" class="hide" type="text" disabled></textarea>
                     <div class="center-absolute">
                         <div id="div-start">
@@ -45,6 +45,6 @@
             </div>
             <p>Desenvolvido por <a href="https://www.linkedin.com/in/victorgbriel/" target="_blank" draggable="false">victorgbriel</a> - Programa <a href="https://www.alura.com.br/oracle-next-education" target="_blank" draggable="false">ONE</a></p>
         </footer>
-        <script src="script/script.js"></script>
+        <script type="module" src="scripts/index.js"></script>
     </body>
 </html>

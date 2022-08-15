@@ -33,7 +33,7 @@ button {
     height: 770px;
 }
 
-.encode-input {
+.encrypt-input {
     margin: 0 10px 0;
     border: dashed 2px #6C5DD1;
     padding: 10px;
@@ -71,29 +71,29 @@ button {
     font-size: 16px !important;
 }
 
-#encode-btn {
+#encrypt-btn {
     background-color: #6C5DD1;
     color: #fff;
     margin: 0 10px;
     width: 40%;
 }
 
-#encode-btn:hover {
+#encrypt-btn:hover {
     transform: scale(1.1);
 }
 
-#decode-btn, #decode-btn {
+#decrypt-btn, #decrypt-btn {
     background-color: transparent;
     width: 40%;
     margin: 0 10px;
 }
 
-#decode-btn {
+#decrypt-btn {
     color: #fff;
     border: solid 3px #fff;
 }
 
-#decode-btn:hover {
+#decrypt-btn:hover {
     transform: scale(1.1);
 }
 
@@ -104,7 +104,7 @@ button {
     pointer-events: none;
 }
 
-.encode-panel {
+.encrypt-panel {
     padding: 10px;
     width: 20%;
     height: calc(100% - 20px);
@@ -130,11 +130,11 @@ button {
     left: 50%;
 }
 
-.encode-panel img {
+.encrypt-panel img {
     width: 100%;
 }
 
-.encode-panel .center-absolute p {
+.encrypt-panel .center-absolute p {
     color: #fff;
     margin-bottom: 10px;
     line-height: 1.4;
