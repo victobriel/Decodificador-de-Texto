@@ -16,22 +16,25 @@ As "chaves" de criptografia que utilizaremos são:
 ```
 - Deve funcionar apenas com letras minúsculas
 - Não devem ser utilizados letras com acentos nem caracteres especiais
-- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
-<br>
-Por exemplo:<br>
+- Deve ser possível converter uma palavra para a versão criptografada e
+também retornar uma palavra criptografada para a versão original.
+Por exemplo:
 "gato" => "gaitober"<br>
 gaitober" => "gato"
 
-- A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
+- A página deve ter campos para inserção do texto a ser criptografado ou descriptografado,
+e a pessoa usuária deve poder escolher entre as duas opções
 - O resultado deve ser exibido na tela.
 ```
 #### Extras:
 ```
-- Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
+- Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja,
+que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 ```
 ### O que foi usado:
 ``` 
-- Na criptografia e na descriptografia foi utilizado **replace com RegEx** para procurar e substuir letras por palavras ou o inverso.
+- Na criptografia e na descriptografia foi utilizado **replace com RegEx** para procurar e substuir letras por palavras
+ou o inverso.
 - HTML, CSS e JavaScript puro.
 ```
 - Sobre RegEx: <a href="https://www.alura.com.br/conteudo/expressoes-regulares" target="_blank">clique aqui<a>
