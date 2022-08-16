@@ -27,6 +27,10 @@ const functions = {
             copyBtn.disabled = false;
             copyBtn.classList.remove('copied');
         }, 2000);
+    },
+
+    checktext: function(text) {
+        return /[^\w\s]|[A-Z0-9]|_/.test(text);
     }
     
 }; export default functions;

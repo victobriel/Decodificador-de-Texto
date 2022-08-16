@@ -1,4 +1,4 @@
-import {inputArea, panelArea, encryptBtn, decryptBtn, copyBtn} from './var.js';
+import { inputArea, panelArea, encryptBtn, decryptBtn, copyBtn } from './var.js';
 import loop from './loop.js';
 import functions from './functions.js';
 
