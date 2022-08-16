@@ -35,3 +35,4 @@ gaitober" => "gato"
 - HTML, CSS e JavaScript puro.
 ```
 ### Screenshots:
+<img width=100% src="https://github.com/victobriel/challengerOneSprint1/blob/main/screenshots/1.png">
