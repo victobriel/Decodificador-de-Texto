@@ -30,9 +30,10 @@ gaitober" => "gato"
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 ```
 ### O que foi usado:
-```
+``` 
 - Na criptografia e na descriptografia foi utilizado **replace com RegEx** para procurar e substuir letras por palavras ou o inverso.
 - HTML, CSS e JavaScript puro.
 ```
+- Sobre RegEx: <a href="https://www.alura.com.br/conteudo/expressoes-regulares" target="_blank">clique aqui<a>
 ### Screenshots:
 <img width=100% src="https://github.com/victobriel/challengerOneSprint1/blob/main/screenshots/1.png">
