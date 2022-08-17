@@ -1,6 +1,9 @@
 <img src="https://www.alura.com.br/assets/img/alura-logo.svg" alt="alura-logo" draggable="false"><br>
 # Challenger Criptografador de Texto - Programa ONE - S1T3
-
+```
+Responsividade: 100%
+Funcionalidade: 100%
+```
 ### Regras do desafio:
 
 #### Para a criptografia:
@@ -40,3 +43,5 @@ ou o inverso.
 - Sobre RegEx: <a href="https://www.alura.com.br/conteudo/expressoes-regulares" target="_blank">clique aqui<a>
 ### Screenshots:
 <img width=100% src="https://github.com/victobriel/challengerOneSprint1/blob/main/screenshots/1.png">
+<img width=100% src="https://github.com/victobriel/challengerOneSprint1/blob/main/screenshots/2.png">
+<img width=100% src="https://github.com/victobriel/challengerOneSprint1/blob/main/screenshots/3.png">
